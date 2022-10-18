@@ -61,6 +61,12 @@ build CMakeFiles/HomeWork_31_5_1.dir/src/CheckBlock.cpp.obj: CXX_COMPILER__HomeW
   OBJECT_DIR = CMakeFiles\HomeWork_31_5_1.dir
   OBJECT_FILE_DIR = CMakeFiles\HomeWork_31_5_1.dir\src
 
+build CMakeFiles/HomeWork_31_5_1.dir/src/SharedToyPtr.cpp.obj: CXX_COMPILER__HomeWork_31_5_1_Debug C$:/Users/Alex/CLionProjects/HomeWork_31.5.1/src/SharedToyPtr.cpp || cmake_object_order_depends_target_HomeWork_31_5_1
+  DEP_FILE = CMakeFiles\HomeWork_31_5_1.dir\src\SharedToyPtr.cpp.obj.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles\HomeWork_31_5_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\HomeWork_31_5_1.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target HomeWork_31_5_1
@@ -69,7 +75,7 @@ build CMakeFiles/HomeWork_31_5_1.dir/src/CheckBlock.cpp.obj: CXX_COMPILER__HomeW
 #############################################
 # Link the executable HomeWork_31_5_1.exe
 
-build HomeWork_31_5_1.exe: CXX_EXECUTABLE_LINKER__HomeWork_31_5_1_Debug CMakeFiles/HomeWork_31_5_1.dir/main.cpp.obj CMakeFiles/HomeWork_31_5_1.dir/src/CheckBlock.cpp.obj
+build HomeWork_31_5_1.exe: CXX_EXECUTABLE_LINKER__HomeWork_31_5_1_Debug CMakeFiles/HomeWork_31_5_1.dir/main.cpp.obj CMakeFiles/HomeWork_31_5_1.dir/src/CheckBlock.cpp.obj CMakeFiles/HomeWork_31_5_1.dir/src/SharedToyPtr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HomeWork_31_5_1.dir
